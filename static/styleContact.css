@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Ubuntu:ital,wght@1,300&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myInput{
+    width:40%;
+    padding: 9px;
+    font-size: 15px;
+    margin:8px;
+    border: solid red 2px;
+    border-radius: 15px;  
+    font-family: 'Borel', cursive; 
+    
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.btn{
+    color: white;
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 12px;
+    background-color: black   
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    min-height: 70vh; 
+    outline: none; 
+}
+.container h1{
+    font-family: 'Borel', cursive;
+}

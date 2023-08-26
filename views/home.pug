@@ -1,0 +1,42 @@
+extends base.pug
+block scripts
+  script(src="/static/index.js") 
+block style
+    style
+      include ../static/style.css
+block content   
+    section#introSection
+        div Welcome to Latin Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#mission
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/images/img1.jpg")
+                div.card-content
+                    p This the best Dance Academy in India
+        div.card
+            h3 Dance Way as You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/images/img2.jpg")
+                div.card-content
+                    p This the best Dance Academy in India
+        div.card
+            h3 Pratice With Experts
+            div.card-box
+                div.card-img
+                    img(src="/static/images/img3.jpg")
+                div.card-content
+                    p This the best Dance Academy in India
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/images/sp1.jpg",Class="spImage")
+            img(src="/static/images/sp2.jpg",Class="spImage")
+            img(src="/static/images/sp3.jpg",Class="spImage")
+            
+        
+
